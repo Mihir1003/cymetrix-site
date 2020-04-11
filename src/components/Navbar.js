@@ -5,9 +5,7 @@ import React from 'react';
 function Navbar() {
   return (
     <div className="Navbar">
-      <header id="home" class="welcome-hero-area">
-    <div class="header-top-area">
-        <div class="container header-container">
+    
             <div class="row">
                 <div class="col-md-3 col-xs-6">
                     
@@ -20,15 +18,7 @@ function Navbar() {
                     
                     <div class="mainmenu">
                         <div class="navbar navbar-nobg">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="navbar-collapse collapse">
+                            <div class="navbar">
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class=""><a class="smoth-scroll>
                                             ?>" href="index">home</a>
@@ -89,9 +79,7 @@ function Navbar() {
                     
                 </div>
             </div>
-        </div>
-    </div>
-</header>
+        
     </div>
   );
 }
