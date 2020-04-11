@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function Header() {
+function Navbar() {
   return (
     <div className="Navbar">
       <header id="home" class="welcome-hero-area">
