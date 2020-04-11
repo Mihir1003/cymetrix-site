@@ -10,14 +10,14 @@ function Navbar() {
         <div class="container header-container">
             <div class="row">
                 <div class="col-md-3 col-xs-6">
-                    !-- START LOGO --
+                    
                     <div class="logo">
                         <a href="index.html"><img src="assets/img/logo.png" class="img-responsive" alt="Cymetrix Software" /></a>
                     </div>
-                    !-- END LOGO -->
+                    
                 </div>
                 <div class="col-md-9 col-xs-6">
-                    !-- START MAIN MENU -->
+                    
                     <div class="mainmenu">
                         <div class="navbar navbar-nobg">
                             <div class="navbar-header">
@@ -86,13 +86,11 @@ function Navbar() {
                             </div>
                         </div>
                     </div>
-                    !-- END MAIN MENU -->
+                    
                 </div>
             </div>
         </div>
     </div>
-
-    !-- END HEADER AREA -->
 </header>
     </div>
   );
